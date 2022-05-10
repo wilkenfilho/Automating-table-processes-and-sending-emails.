@@ -1,0 +1,20 @@
+O arquivo está como PY, porem, altere a extensao para .ipynb e abra no Jupyter utilizando o Anaconda. 
+Nao tente abrir pelo Google Colab, testei antes e nao funcionou!
+
+os processos de pyautogui.click() precisarao ser alterados, pois, as posicoes X e Y alteram conforme a resolucao do PC.
+
+Para saberem qual a posicao do mouse, utilize o seguinte comando:
+
+time.sleep(7)
+pyautogui.position() #serve para descobrir a posiçao do mouse
+
+
+faça esse comando em uma celula separada do Jupyter para nao comprometer o seu codigo inteiro.
+
+Abracos.
+
+
+qualquer duvida:
+
++55 11 95949-5571
+Wilken
